@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DJSAndroid</string>
+
+
+    <string name="txt_view_time">View time</string>
+    <string name="txt_temper">Temperature(oC)</string>
+    <string name="txt_setting_time">Setting Time</string>
+    <string name="txt_counter">Counter</string>
+    <string name="txt_Button">Button</string>
+    <string name="txt_output">Output</string>
+
+    <string name="txt_dialog_accept">Yes</string>
+    <string name="txt_dialog_title">Thông Báo</string>
+    <string name="txt_dialog_content">Please Enter setting time</string>
+    <string name="txt_dialog_cancel">No</string>
+    <string name="hint_edtdialog">Enter time</string>
+
+</resources>

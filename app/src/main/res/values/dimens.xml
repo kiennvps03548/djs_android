@@ -1,0 +1,38 @@
+<resources>
+
+    <color name="colorTab_bg">#eff4f7</color>
+
+    <dimen name="font_30">11sp</dimen>
+    <dimen name="font_36">12sp</dimen>
+    <dimen name="font_40">13.3sp</dimen>
+    <dimen name="font_42">14sp</dimen>
+    <dimen name="font_48">16sp</dimen>
+    <dimen name="font_54">18sp</dimen>
+    <dimen name="font_66">22sp</dimen>
+    <dimen name="font_72">24sp</dimen>
+    <dimen name="font_56">18.5sp</dimen>
+
+
+    <dimen name="space_1">1dp</dimen>
+    <dimen name="space_3">3dp</dimen>
+    <dimen name="space_5">5dp</dimen>
+    <dimen name="space_7">7dp</dimen>
+    <dimen name="space_09">9dp</dimen>
+    <dimen name="space_10">10.5dp</dimen>
+    <dimen name="space_11">11dp</dimen>
+    <dimen name="space_012">12dp</dimen>
+    <dimen name="space_13">13dp</dimen>
+    <dimen name="space_14">14dp</dimen>
+    <dimen name="space_15">15dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_19">19dp</dimen>
+    <dimen name="space_23">23dp</dimen>
+
+    <dimen name="space_27">27dp</dimen>
+    <dimen name="space_037">37dp</dimen>
+
+    <dimen name="space_47">47dp</dimen>
+
+    <dimen name="space_250">250dp</dimen>
+
+</resources>

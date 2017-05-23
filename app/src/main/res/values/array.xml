@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="anphabe_colors">
+        <item>#00bfa5</item>
+        <item>#6200ea</item>
+        <item>#ffd600</item>
+        <item>#304ffe</item>
+        <item>#64dd17</item>
+        <item>#c51162</item>
+        <item>#2962ff</item>
+        <item>#00c853</item>
+        <item>#ffab00</item>
+        <item>#0091ea</item>
+        <item>#3e2723</item>
+        <item>#304ffe</item>
+        <item>#d50000</item>
+        <item>#aeea00</item>
+        <item>#263238</item>
+        <item>#dd2c00</item>
+        <item>#212121</item>
+        <item>#ff6d00</item>
+        <item>#00b8d4</item>
+        <item>#00bfa5</item>
+        <item>#6200ea</item>
+        <item>#ffd600</item>
+        <item>#64dd17</item>
+        <item>#aa00ff</item>
+        <item>#c51162</item>
+        <item>#2962ff</item>
+        <item>#3F4447</item>
+    </string-array>
+</resources>
