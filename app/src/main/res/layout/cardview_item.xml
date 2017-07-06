@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:elevation="6dp"
+        android:focusable="true"
+        android:stateListAnimator="@anim/cardview_animation"
+        card_view:cardUseCompatPadding="true"
+        android:foreground="?android:selectableItemBackground"
+        card_view:cardBackgroundColor="@color/md_material_blue_600"
+        card_view:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space_20">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/md_listitem_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="fitXY" />
+
+            <com.daniribalbert.customfontlib.views.CustomFontTextView
+                android:id="@+id/txt_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/space_140"
+                app:font="Roboto_Medium" />
+
+            <com.daniribalbert.customfontlib.views.CustomFontTextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_value"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:font="Roboto_Medium" />
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/md_button_min_width"
+                android:layout_height="@dimen/md_button_min_width"
+                android:padding="3dp"
+                card_view:srcCompat="@drawable/target"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

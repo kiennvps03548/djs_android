@@ -4,7 +4,7 @@ package com.example.djs.djsandroid.model;
  * Created by Julian on 5/4/2017.
  */
 
-public class CommonClassItem {
+public class CommonClass {
     String id, name;
 
     public String getId() {

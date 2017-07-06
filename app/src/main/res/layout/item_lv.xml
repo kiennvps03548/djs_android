@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/bg_index_blue"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="5dp">
+
+        <com.daniribalbert.customfontlib.views.CustomFontTextView
+            android:id="@+id/txt_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:font="Roboto_Medium" />
+
+        <com.daniribalbert.customfontlib.views.CustomFontTextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="@string/txt_view_time"
+            app:font="Roboto_Medium" />
+
+
+</LinearLayout>

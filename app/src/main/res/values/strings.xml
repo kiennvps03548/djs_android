@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DJSAndroid</string>
+    <string name="app_name">DGS - Control Board</string>
 
 
     <string name="txt_view_time">View time</string>
@@ -10,7 +10,7 @@
     <string name="txt_output">Output</string>
 
     <string name="txt_dialog_accept">Yes</string>
-    <string name="txt_dialog_title">Thông Báo</string>
+    <string name="txt_dialog_title">Notification</string>
     <string name="txt_dialog_content">Please Enter setting time</string>
     <string name="txt_dialog_cancel">No</string>
     <string name="hint_edtdialog">Enter time</string>

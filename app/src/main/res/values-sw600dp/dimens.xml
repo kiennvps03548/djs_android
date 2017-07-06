@@ -1,15 +1,14 @@
 <resources>
-
     <dimen name="font_30">12sp</dimen>
     <dimen name="font_36">16sp</dimen>
     <dimen name="font_40">17.3sp</dimen>
     <dimen name="font_42">18sp</dimen>
     <dimen name="font_48">20sp</dimen>
     <dimen name="font_54">22sp</dimen>
+
+    <dimen name="space_59">45dp</dimen>
     <dimen name="space_306">207dp</dimen>
     <dimen name="space_1001">750dp</dimen>
-
-
     <dimen name="space_09">20dp</dimen>
     <dimen name="space_012">20dp</dimen>
     <dimen name="space_037">48dp</dimen>
